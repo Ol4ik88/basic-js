@@ -1,38 +1,3 @@
-# BasicJS
-
-⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
-
----
-
-#### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/AlreadyBored/basic-js
-3. Clone your newly created repo: https://github.com/<%your_github_username%>/basic-js/  
-4. Go to folder `basic-js`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
-6. Run `npm run test` in command line.
-7. You will see the number of pending, passing and failing tests. 100% of passing tests is equal to max score for the task
-
----
-
-#### Submit to [rs app](https://app.rs.school)
-1. Open [rs app](https://app.rs.school) and login
-2. Go to submit task page
-3. Select your task (BasicJS)
-4. Press the submit button and enjoy
-
----
-
-#### Notes
-1. We recommend you to use Node.js of version 14.x.x LTS. If you use any of features, that does not supported by Node.js v14, there may be problems with task submit.
-2. Please, be sure that each of your tests is limited to 30 sec.
-
----
-
-## General task description
-Your task is to write several functions that are the solution to the subtasks. Subtasks descriptions, as well as instructions on how to run tests and submit solutions are below.
-
----
 
 ### **Count cats!**
 
@@ -178,8 +143,8 @@ Your task is to implement the function `transform(arr)` that takes an `array` an
 **Control sequences** are defined `string` elements of the mentioned `array`:
 * `--discard-next` excludes the next element of the array from the transformed array.
 * `--discard-prev` excludes the previous element of the array from the transformed array.
-* `--double-next` doubles the next element of the array in the transformed array.
-* `--double-prev` doubles the previous element of the array in the transformed array.
+* `--double-next` duplicates the next element of the array in the transformed array.
+* `--double-prev` duplicates the previous element of the array in the transformed array.
 
 For example:
 
@@ -469,3 +434,4 @@ Write your code in `src/sum-digits.js`.
 are integrated from [Short track 2021 repo](https://github.com/rkhaslarov/rs-school-short-track-2021)
 
 & Thanks [mikhama](https://github.com/mikhama) for assistance!
+>>>>>>> 35961c4664a5f9ed985ef60ff6b2afabe9e9afc6
